@@ -5,17 +5,17 @@ public class App {
         int boardWidth = 360;
         int boardHeight = 640;
 
-        JFrame frame = new JFrame("Flappy Sprite Can");
+        JFrame frame = new JFrame("Flappy Soda");
         // frame.setVisible(true);
 		frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        FlappySpriteCan flappySpriteCan = new FlappySpriteCan();
-        frame.add(flappySpriteCan);
+        FlappySoda flappysoda = new FlappySoda();
+        frame.add(flappysoda);
         frame.pack();
-        flappySpriteCan.requestFocus();
+        flappysoda.requestFocus();
         frame.setVisible(true);
     }
 }

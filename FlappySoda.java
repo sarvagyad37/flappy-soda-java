@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.*;
 
-public class FlappySpriteCan extends JPanel implements ActionListener, KeyListener {
+public class FlappySoda extends JPanel implements ActionListener, KeyListener {
     int boardWidth = 360;
     int boardHeight = 640;
 
@@ -65,7 +65,7 @@ public class FlappySpriteCan extends JPanel implements ActionListener, KeyListen
     boolean gameOver = false;
     double score = 0;
 
-    FlappySpriteCan() {
+    FlappySoda() {
         setPreferredSize(new Dimension(boardWidth, boardHeight));
         setFocusable(true);
         addKeyListener(this);
